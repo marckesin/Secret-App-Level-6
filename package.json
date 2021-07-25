@@ -1,0 +1,40 @@
+{
+  "name": "secrets",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.13.3",
+    "mongoose-findorcreate": "^3.0.0",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "session": "^0.1.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Ronaldo",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "authentication",
+    "passport"
+  ],
+  "description": "App de autenticação utilizando passport-google-oauth20. Desenvolvido com Nodejs/Expressjs e MongoDB."
+}
